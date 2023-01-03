@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#headerText{
+    height: 700;
+}
+
+.ul{
+    display: flex;
+}
+.ul li{
+    margin: 30px;
+}
