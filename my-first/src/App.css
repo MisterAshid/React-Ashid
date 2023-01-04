@@ -1,14 +1,7 @@
-.users{
-  display: flex;
-  flex-wrap: wrap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.user{
-  border: 1px solid pink;
-  margin: auto;
-}
-
-.user img{
-  width: 200px;
-  height: 200px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

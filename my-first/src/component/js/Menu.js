@@ -1,3 +1,0 @@
-const Men = ["PORTFOLIO", "PORTFOLIO", "PORTFOLIO", "PORTFOLIO", "PORTFOLIO", "PORTFOLIO", "PORTFOLIO", ]\
-
-export default Menu
