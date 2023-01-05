@@ -1,0 +1,12 @@
+.all ul {
+  display: flex;
+  justify-content: space-between;
+  color: #424242;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  margin-bottom: 125px;
+}

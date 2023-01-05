@@ -1,12 +1,15 @@
-import Text from './text/text'
+import Text from "./text/text";
+import Image from "./image/image";
 
-const Content = () =>{
-    return(
-        <div>
-            <Text />
-            <Button />
-        </div>
-    )
-}
+import "./Content.css";
+
+const Content = () => {
+  return (
+    <div className="main">
+      <Text />
+      <Image />
+    </div>
+  );
+};
 
 export default Content;

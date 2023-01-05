@@ -1,15 +1,27 @@
-const menu = ["PORTFOLIO", "BLOG", "CV", "STORE", "FREELANCE", "ABOUT ME", "CONTACT",];
+import "./list.css";
+
+const menu = [
+  "PORTFOLIO",
+  "BLOG",
+  "CV",
+  "STORE",
+  "FREELANCE",
+  "ABOUT ME",
+  "CONTACT",
+];
 
 const List = () => {
-    return (
-        <div>
-            <ul className='ul'>
-              {
-                menu.map((x) =><li  className = "navList">{x}</li>)
-              }
-            </ul>
-        </div>
-    )
+  return (
+    <div className="ul">
+      <ul>
+        {menu.map((x, index) => (
+          <li key={index} className="navList">
+            {x}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 
 export default List;

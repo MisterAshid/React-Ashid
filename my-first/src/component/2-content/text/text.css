@@ -1,0 +1,45 @@
+.mainText {
+  font-family: "Montserrat";
+  font-style: normal;
+  width: 600px;
+}
+
+.mainText h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  color: #d05270;
+}
+
+.mainText h2 {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 63px;
+}
+
+.mainText p {
+  margin: 40px 0;
+}
+
+.headerBtn {
+  border: none;
+  outline: none;
+  color: white;
+  margin-right: 20px;
+}
+
+.headerBtn1 {
+  background: #47acdf;
+  padding: 23px 56px;
+}
+
+.headerBtn2 {
+  background: #1275b1;
+  padding: 23px 56px;
+}
+
+.headerBtn3 {
+  background: #000000;
+  padding: 23px 56px;
+}
